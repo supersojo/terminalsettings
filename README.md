@@ -1,6 +1,6 @@
-= 终端模拟器设置
+# 终端模拟器设置
 
-== 配置文件
+## 配置文件
 
 ```
 cat .Xresources
@@ -45,7 +45,7 @@ URxvt*scrollstyle: plain
 
 URxvt*perl-ext-common: default,font-size
 ```
-== 加载修改
+## 加载修改
 
 ```
 xrdb -merge .Xresources
